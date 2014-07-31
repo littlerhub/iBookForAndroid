@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iBooksForAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="title_mybooklib">我的书库</string>
+	<string name="title_mybookshelf">我的书架</string>
+	<!-- 更多菜单栏 -->
+	<string name="more_item_clear_bookshelf">整理书架</string>
+	<string name="more_item_input_books">导入书籍</string>
+	<string name="more_item_wifi_transfer">WIFI传书</string>
+	<string name="more_item_exit">退出</string>
+	<!-- DragSortListView -->
+	<string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_remove_mode">Remove modes</string>
+    <string name="select_drag_init_mode">Start-drag modes</string>
+    <string name="select_enables">Enable/Disable</string>
+    <string name="add_header">Add header</string>
+    <string name="add_footer">Add footer</string>
+    <string-array name="remove_mode_labels">
+      <item>Click remove</item>
+      <item>Fling remove</item>
+    </string-array>
+    <string-array name="drag_init_mode_labels">
+      <item>On down</item>
+      <item>On drag</item>
+      <item>On long press</item>
+    </string-array>
+    <string-array name="enables_labels">
+      <item>Enable drag</item>
+      <item>Enable sort</item>
+      <item>Enable remove</item>
+    </string-array>
+    <string-array name="jazz_artist_names">
+      <item>Brad Mehldau</item>
+      <item>Joshua Redman</item>
+      <item>Chick Corea</item>
+      <item>Kurt Rosenwinkel</item>
+      <item>Miles Davis</item>
+      <item>Wayne Shorter</item>
+      <item>Michael Brecker</item>
+      <item>Herbie Hancock</item>
+      <item>Joe Zawinul</item>
+      <item>Brian Blade</item>
+      <item>Jeff Ballard</item>
+      <item>Larry Grenadier</item>
+      <item>Keith Jarrett</item>
+      <item>McCoy Tyner</item>
+      <item>Stephon Harris</item>
+      <item>Mark Turner</item>
+    </string-array>
+    
+    <string-array name="test_names">
+      <item>aaa</item>
+      <item>bbb</item>
+      <item>ccc</item>
+      <item>ddd</item>
+      <item>eee</item>
+      <item>fff</item>
+      <item>ggg</item>
+      <item>hhh</item>
+      <item>iii</item>
+      <item>kkk</item>
+      <item>lll</item>
+      <item>mmm</item>
+      <item>nnn</item>
+      <item>uuu</item>
+      <item>vvv</item>
+      <item>www</item>
+    </string-array>
+</resources>

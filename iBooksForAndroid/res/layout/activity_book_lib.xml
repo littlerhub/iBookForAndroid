@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <!-- Top menu -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/booklib_top_menu_bg"
+        >
+        <ImageView
+	        android:id="@+id/mBtnToBookShelf"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/selector_btn_back_to_bookshelf"
+	        android:clickable="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        />
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        android:shadowRadius="1"
+	        android:text="@string/title_mybooklib"
+	        android:textColor="#642803"
+        	android:textSize="20sp"
+        	android:textStyle="bold" 
+        	/>
+    </RelativeLayout>
+    
+    <!-- 可以下拉刷新的WebView -->
+    <com.little.ibooks.view.PullToRefreshWebView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.little.ibooks"
+        android:id="@+id/pull_refresh_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:mode="both"
+        />
+</LinearLayout>

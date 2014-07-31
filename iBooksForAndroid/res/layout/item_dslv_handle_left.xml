@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:background="@color/blue"
+  	>
+  	<ImageView
+	    android:id="@id/drag_handle"
+	    android:background="@drawable/ic_drag"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:layout_alignParentLeft="true"
+	    />
+  	<TextView
+	    android:id="@+id/text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:gravity="center"
+	    android:text="全部图书"
+    	android:layout_centerInParent="true"
+	    android:background="@color/orange"
+	    />
+  	<ImageView
+	    android:id="@+id/drag_handle2"
+	    android:background="@drawable/ic_drag"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:layout_alignParentRight="true"
+	    android:visibility="invisible"
+	    />
+</RelativeLayout>
